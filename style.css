@@ -12,6 +12,30 @@
   --White: hsl(0, 0%, 100%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-box {
+  width: 120rem;
+  height: 80rem;
+  background-color: aqua;
 }
