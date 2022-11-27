@@ -34,8 +34,7 @@ body {
   align-items: center;
 }
 
-.post-box {
-  width: 120rem;
-  height: 80rem;
+.post-container {
+  width: 80rem;
   background-color: aqua;
 }

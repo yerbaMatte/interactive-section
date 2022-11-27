@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "prettier.enable": true,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": false,
+  "editor.detectIndentation": false
+}
