@@ -35,6 +35,43 @@ body {
 }
 
 .post-container {
-  width: 80rem;
+  width: 50rem;
   background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-box {
+  display: flex;
+  align-items: center;
+  background-color: rgba(137, 43, 226, 0.706);
+  padding: 0 0 2.2rem 0;
+}
+
+.likes-box {
+  background-color: yellow;
+  padding: 0.6rem 0.6rem 0.6rem 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.replyClass {
 }
